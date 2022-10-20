@@ -1,0 +1,46 @@
+{
+  "name": "card-validator",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "babel-loader": "^8.2.5",
+    "child_process": "^1.0.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.2.1",
+    "jest-environment-jsdom": "^29.2.1",
+    "license-webpack-plugin": "^4.0.2",
+    "mini-css-extract-plugin": "^2.6.1",
+    "puppeteer-core": "^19.0.0",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-license-plugin": "^4.2.2"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint . --fix",
+    "test": "jest --testPathPattern=./src/",
+    "e2e": "jest --testPathPattern=./e2e/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuAleksandr/card-validator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuAleksandr/card-validator/issues"
+  },
+  "homepage": "https://github.com/BuAleksandr/card-validator#readme"
+}
